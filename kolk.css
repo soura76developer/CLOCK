@@ -1,0 +1,15 @@
+.F_main
+{
+    display: flex;
+    background-color: cyan;
+    width: 200px;
+
+}
+
+.S_main
+{
+    display: flex;
+    background-color: seagreen;
+    width: 200x;
+}
+  
