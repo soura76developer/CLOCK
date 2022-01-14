@@ -100,7 +100,23 @@
     left:20%;
 }
 
-.num
+#num1
+{
+    font-size: 20px;
+    color: rgb(67, 2, 128);
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#num2
+{
+    font-size: 20px;
+    color: rgb(67, 2, 128);
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#num3
 {
     font-size: 20px;
     color: rgb(67, 2, 128);
