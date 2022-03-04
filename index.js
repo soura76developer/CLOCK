@@ -19,18 +19,40 @@ function clock() {    // main function
 }  
 setInterval(clock,1000); //this method conntinues the calling of function until the windows is closed
 
-function settime()   //onclick function for directed to the place
+// Till avobe the Code is for render the live time
+
+
+// function settime()   //onclick function for directed to the place
+// {
+//   var i= document.getElementById('wake').value; //get the value from user
+//   var hourr=new Date().getHours();
+
+//   if(i==hourr)
+//   {
+//     document.getElementsByClassName('lets').innerHTML='Testing';
+//   }
+
+
+//  }
+
+
+function setTime()
 {
-  var i= document.getElementById('wake').value; //get the value from user
-  var hourr=new Date().getHours();
+  var i = document.getElementById("wake").value;
+  var hou_r = new Date().getHours();
 
-  if(i==hourr)
+    console.log(i,'i');
+    console.log(hou_r,'hou_r');
+
+  if(Number(i)== hou_r)
   {
-    document.getElementsByClassName('lets').innerHTML='Testing';
+    document.getElementsByClassName('lets').innerText="Wake Up time";
+    document.getElementsByClassName('good').innerHTML="Good Morning";
+
+   
+
+
+    // const div=document.createElement("h5")
+    // div.innerText = "Wake up time";
   }
-
-
-
-
-
 }
