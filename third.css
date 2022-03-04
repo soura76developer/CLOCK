@@ -97,7 +97,7 @@
 {
     color:#3D087B;
     position:relative;
-    left:20%;
+    left:15%;
 }
 
 .num
@@ -141,6 +141,12 @@
 
 }
 
+#hours
+{
+    margin-left: 10px;
+    font-size: 25px;
+}
+
 
 .time3
 {
@@ -151,6 +157,13 @@
  border-radius: 3px;
 
 }
+
+#minutes
+{
+    margin-left: 10px;
+    font-size: 25px;
+}
+
 .time4
 {
  width: 52px;
@@ -160,6 +173,14 @@ background-image: url(./timeline.svg);
  border-radius: 3px;
 
 }
+
+#seconds
+{
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+
 .time5
 {
  width: 52px;
