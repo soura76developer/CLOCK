@@ -181,7 +181,7 @@ background-image: url(./timeline.svg);
 }
 
 
-.time5
+#time5
 {
  width: 52px;
  height: 60px;
@@ -191,6 +191,14 @@ background-image: url(./timeline.svg);
 
 }
 
+#upto{
+
+    margin-left: 7px;
+ 
+    font-size: 25px;
+    color:white;
+
+}
 
 .second-main
 {
@@ -388,7 +396,7 @@ background-image: url(./timeline.svg);
 {
     width: 250px;
     height: 35px;
-    margin-left: 50px;
+    margin-left: 60px;
      color:#3D087BDE;
     border: solid;
     border-width: 1px;
