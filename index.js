@@ -28,6 +28,14 @@ function clock() {    // main function
       meridian = "PM";
     }
 
+    if(a < noon)  // for define Am or pm
+    {
+      meridian = "AM";
+    }
+
+
+   
+
     if(a > noon)   // for 12 hour time zone
     {
       a = a - 12 ;
